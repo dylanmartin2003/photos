@@ -1,0 +1,20 @@
+ligne de commande pour créer la basse de donnée:
+
+CREATE DATABASE annuaire;
+
+USE annuaire;
+
+CREATE TABLE annuaire (
+    id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    nom VARCHAR(40) NOT NULL,
+    prenom VARCHAR(40),
+    telephone VARCHAR(40),
+    PRIMARY KEY (id)
+);
+
+
+la page principal est "page1.html"
+
+
+
+
